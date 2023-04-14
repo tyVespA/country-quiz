@@ -21,11 +21,11 @@ function App() {
 
   return (
     <div className="App">
-      <Question />
+      <Question countryName={countryName} countryCapital={countryCapital} />
       {/* <div>test: {dataJson}</div> */}
-      {/* <p>
+      <p>
         The capital of {countryName} is {countryCapital}
-      </p> */}
+      </p>
     </div>
   );
 }
