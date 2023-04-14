@@ -1,0 +1,16 @@
+.answerButton {
+  cursor: pointer;
+  padding-block: 10px;
+  margin-block: 10px;
+  border-radius: 10px;
+
+  border: 1px solid var(--color-background);
+  background-color: transparent;
+  color: var(--color-background);
+  transition: all 0.3s;
+}
+
+.answerButton:hover {
+  background-color: var(--color-background);
+  color: white;
+}
